@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <script src="PPT.js">  </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 20px;
+            margin: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        #resultados {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Piedra, papel o tijera</h1>
+    <div>
+        <button onclick="jugar(1)">Piedra ✊</button>
+        <button onclick="jugar(2)">Papel 🖐️</button>
+        <button onclick="jugar(3)">Tijera ✌️</button>
+    </div>
+    <div id="resultados">
+        <p id="pc-eleccion"></p>
+        <p id="jugador-eleccion"></p>
+        <p id="resultado"></p>
+        <p id="marcador"></p>
+    </div>
+
+</body>
+
+</html>
