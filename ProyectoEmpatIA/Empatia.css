@@ -1,0 +1,127 @@
+/* Estilos globales para el cuerpo del documento */
+body {
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    background-color: #FF829A; /* Color de fondo */
+    display: flex; /* Usa un diseño flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Altura del viewport */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    background-color: #FFA6B2; /* Color de fondo del contenedor */
+    width: 95%; /* Ancho del contenedor */
+    height: 90%; /* Altura del contenedor */
+    padding: 10px; /* Relleno interno del contenedor */
+    border-radius: 20px; /* Bordes redondeados */
+    display: flex; /* Usa un diseño flexible */
+    flex-direction: row; /* Disposición de los elementos en fila */
+    justify-content: flex-end; /* Alinea el contenido al final del contenedor */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+}
+
+/* Estilos para la imagen dentro del contenedor izquierdo */
+.left-container img {
+    max-width: 100%; /* Ancho máximo de la imagen */
+    display: flex; /* Usa un diseño flexible */
+    align-items: flex-start; /* Alinea la imagen al inicio del contenedor */
+}
+
+/* Estilos para el contenedor derecho */
+.right-container {
+    flex: 100%; /* Crece para llenar el espacio disponible */
+    border: 5px solid #FF829A; /* Borde del contenedor */
+    background-color: #FDCC42; /* Color de fondo */
+    padding: 20px; /* Relleno interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 90%; /* Ancho del contenedor */
+    height: 90%; /* Altura del contenedor */
+}
+
+/* Estilos para el chatbot */
+#chat {
+    width: 100%; /* Ancho del chat */
+    height: 100%; /* Altura del chat */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    display: flex; /* Usa un diseño flexible */
+    flex-direction: column; /* Disposición de los elementos en columna */
+    justify-content: flex-end; /* Alinea el contenido al final del contenedor */
+}
+
+/* Estilos para el área de mensajes */
+#message-area {
+    flex: 1; /* Crece para llenar el espacio disponible */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    padding: 20px; /* Relleno interno */
+    color: #860A4D; /* Color del texto */
+}
+
+/* Estilos para el área de entrada de texto */
+#input-area {
+    margin-top: 20px; /* Margen superior */
+    display: flex; /* Usa un diseño flexible */
+}
+
+/* Estilos para el campo de entrada de texto */
+#textoEntrada {
+    flex: 1; /* Crece para llenar el espacio disponible */
+    padding: 10px; /* Relleno interno */
+    border: 5px solid #FEE760; /* Borde del campo */
+    color: #860A4D; /* Color del texto */
+    border-radius: 50px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    background-color: #FEE760; /* Color de fondo */
+}
+
+/* Estilos para el botón de enviar */
+#send-button {
+    padding: 10px 20px; /* Relleno interno */
+    background-color: #FF829A; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 50px; /* Bordes redondeados */
+    color: #860A4D; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin-left: 10px; /* Margen izquierdo */
+    background-color: #FEE760; /* Color de fondo (repetido para corregir error anterior) */
+}
+
+/* Estilos para los mensajes del usuario */
+.user-message {
+    display: flex;
+    justify-content: flex-end; /* Alinea los mensajes del usuario a la derecha */
+}
+
+.user-message .message-content {
+    background-color: #FF829A; /* Color de fondo */
+    color: #860A4D; /* Color del texto */
+    border-radius: 25px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    max-width: 60%; /* Ancho máximo */
+    word-wrap: break-word; /* Ajuste de palabras */
+}
+
+/* Estilos para los mensajes del bot */
+.bot-message {
+    display: flex;
+    justify-content: flex-start; /* Alinea los mensajes del bot a la izquierda */
+}
+
+.bot-message .message-content {
+    background-color: #FEE760; /* Color de fondo */
+    color: #860A4D; /* Color del texto */
+    border-radius: 25px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    max-width: 60%; /* Ancho máximo */
+    word-wrap: break-word; /* Ajuste de palabras */
+}
+
+/* Estilos para el contenido del mensaje */
+.message-content {
+    padding: 10px 15px; /* Relleno interno */
+    border-radius: 25px; /* Bordes redondeados */
+    max-width: 60%; /* Ancho máximo del mensaje */
+    word-wrap: break-word; /* Ajuste de palabras */
+}

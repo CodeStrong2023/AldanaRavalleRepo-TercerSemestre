@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpatIA - tu Chatbot de Asistencia Emocional</title>
+    <link rel="icon" type="image/png" href="Imagenes/empatiaFace.png">
+    
+    <!-- Enlace a CSS para estilos -->
+    <link rel="stylesheet" href="Empatia.css">
+</head>
+
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Contenedor izquierdo con imagen -->
+        <div class="left-container">
+            <img src="Imagenes/empatiaName.png" alt="Imagen de empatía">
+        </div>
+        <!-- Contenedor derecho con el chat -->
+        <div class="right-container">
+            <div id="chat">
+                <!-- Área de mensajes -->
+                <div id="message-area"></div>
+                <!-- Área de entrada de texto y botón de enviar -->
+                <div id="input-area">
+                    <input type="text" id="textoEntrada" placeholder="Escribe aquí...">
+                    <button id="send-button">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importmap para cargar el módulo de Google Generative AI -->
+    <script type="importmap">
+        {
+            "imports": {
+                "@google/generative-ai": "https://esm.run/@google/generative-ai"
+            }
+        }
+    </script>
+
+    <!-- Script principal para manejar el chatbot -->
+    <script type="module">
+        import { GoogleGenerativeAI } from "@google/generative-ai";
+
+        // Clave de la API
+        const API_KEY = "AIzaSyDf5Ut5xuWOUZIqQwYRencuG4vTwMUMqzA";
+        
+        // Inicializar el cliente de IA
+        const genAI = new GoogleGenerativeAI(API_KEY);
+        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+
+        // Evento para el botón de enviar
+        document.getElementById("send-button").addEventListener("click", async function() {
+            let input = document.getElementById('textoEntrada');
+            let message = input.value;
+            if (message.trim() !== '') {
+                addMessage('user', message);
+                input.value = '';
+
+                const responseText = await sendMessageToChatbot(message);
+                addMessage('bot', responseText);
+            }
+        });
+
+        // Función para enviar mensajes al chatbot
+        async function sendMessageToChatbot(msg) {
+            try {
+                const chat = model.startChat({
+                    history: [
+                        { role: "user", parts: [{ text: "Hola" }] },
+                        { role: "model", parts: [{ text: "Bienvenido, cuéntame ¿Cómo te sientes?" }] },
+                    ],
+                    generationConfig: { maxOutputTokens: 100 },
+                });
+
+                const result = await chat.sendMessage(msg);
+                const response = await result.response;
+                return response.text();
+            } catch (error) {
+                console.error('Error al comunicarse con el chatbot:', error);
+                return 'Lo siento, ha ocurrido un error. Inténtalo de nuevo.';
+            }
+        }
+
+        // Función para agregar mensajes a la ventana del chat
+        function addMessage(sender, text) {
+            let messageArea = document.getElementById('message-area');
+            let messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', sender + '-message');
+
+            let messageContent = document.createElement('div');
+            messageContent.classList.add('message-content');
+            messageContent.innerHTML = '<p>' + text + '</p>';
+
+            messageDiv.appendChild(messageContent);
+            messageArea.appendChild(messageDiv);
+            messageArea.scrollTop = messageArea.scrollHeight;
+        }
+    </script>
+</body>
+</html>
