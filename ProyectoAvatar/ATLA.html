@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>LA LEYENDA DE AANG: AVATAR</title>
+        <style>
+            /* CSS para las imágenes */
+            .personaje-imagen {
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+     </head>
+    <body>
+        <h1>AVATAR 🔥💧🌱🌪️</h1>
+
+        <section id="seleccionar-personaje">
+            <h2>Elige tu Personaje</h2>
+
+
+            <label for="zuko">
+                <img src="imagenes/zuko.jpg" alt="Zuko" class="personaje-imagen">
+                Zuko
+            </label>
+            <input type="radio" name="personaje" id="zuko"/>
+
+            <label for="katara">
+                <img src="imagenes/katara.jpg" alt="Katara" class="personaje-imagen">
+                Katara
+            </label>
+            <input type="radio" name="personaje" id="katara"/>
+            
+            <label for="aang">
+                <img src="imagenes/aang.jpg" alt="Aang" class="personaje-imagen">
+                Aang
+            </label>
+            <input type="radio" name="personaje" id="aang"/>
+
+            <label for="toph">
+                <img src="imagenes/toph.jpg" alt="Toph" class="personaje-imagen">
+                Toph
+            </label>
+            <input type="radio" name="personaje" id="toph"/>
+
+            <button id="boton-personaje">Seleccionar</button> <!-- El botón para seleccionar el personaje-->
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h2>Elige tu ataque</h2>
+            <p>Tu personaje tiene <span>3</span> vidas</p>
+            <p>Los personajes del enemigo tienen <span>3</span> vidas</p>
+            <p>
+                <button id="boton-fuego">Fuego 🔥</button>
+                <button id="boton-agua">Agua 💧</button>
+                <button id="boton-tierra">Tierra 🌱</button>
+                <button id="boton-aire">Aire 🌪️</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+            <p>Tu personaje atacó con todo el poder del FUEGO, el personaje del enemigo atacó con el medio poder de la TIERRA - GANASTE 💪</p>
+        </section>
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+        <script src="ATLA.js"></script>
+    </body>
+</html>
