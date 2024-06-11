@@ -1,0 +1,43 @@
+# AVATAR: LA LEYENDA DE AANG - EL JUEGO
+
+Este es un sencillo juego basado en la serie "Avatar: La Leyenda de Aang". El juego permite a los jugadores seleccionar un personaje y luchar contra un enemigo controlado por la computadora.
+
+# Uso
+
+Selecciona tu personaje:
+    Zuko
+    Katara
+    Aang
+    Toph
+
+Selecciona tu ataque:
+    Golpe 👊
+    Patada 🦵
+    Barrida 🦶
+
+Resultado del combate:
+    El juego mostrará el resultado del ataque comparado con el ataque aleatorio del enemigo.
+Reiniciar el juego:
+
+Puedes reiniciar el juego en cualquier momento haciendo clic en el botón "Reiniciar".·
+
+# Código HTML
+    Título del Juego: Un encabezado h1 que muestra el nombre del juego.
+    Selección de Personaje: Una sección (section) con etiquetas label e input de tipo radio para elegir el personaje del jugador. Cada personaje tiene una imagen asociada.
+    Selección de Ataque: Una sección con botones para elegir el ataque del personaje.
+    Mensajes de Combate: Una sección para mostrar el resultado del ataque del jugador contra el ataque del enemigo.
+    Reiniciar Juego: Un botón para reiniciar el juego.
+
+# Código JavaScript
+    El archivo ATLA.js contiene la lógica del juego, que se describe a continuación:
+
+    Variables globales:
+        ataqueJugador y ataqueEnemigo se utilizan para almacenar los ataques del jugador y del enemigo respectivamente.
+    
+    Funciones principales:
+        iniciarJuego(): Inicializa el juego y agrega los escuchadores de eventos para la selección de personaje y los ataques.
+        seleccionarPersonajeJugador(): Permite al jugador seleccionar un personaje y actualiza la interfaz.
+        seleccionarPersonajeEnemigo(): Selecciona un personaje enemigo de forma aleatoria.
+        ataqueGolpe(), ataquePatada(), ataqueBarrida(): Manejan los ataques del jugador.
+        ataqueAleatorioEnemigo(): Genera y asigna un ataque aleatorio para el enemigo.
+        aleatorio(min, max): Función para generar un número aleatorio entre min y max.
