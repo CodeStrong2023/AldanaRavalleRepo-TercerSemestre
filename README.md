@@ -17,7 +17,7 @@ ___
 - Clase 6 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%206)
 - Clase 7 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%207)
 - Clase 8 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%208)
-- Clase 9 de Java: [Enlace a la carpeta](#)
+- Clase 9 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%209)
 - Clase 10 de Java: [Enlace a la carpeta](#)
 ___
 
@@ -49,7 +49,7 @@ ___
 - Clase 6 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
 - Clase 7 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
 - Clase 8 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
-- Clase 9 de JavaScript: [Enlace a la carpeta]()
+- Clase 9 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%209)
 - Clase 10 de JavaScript: [Enlace a la carpeta]()
 ___
 
