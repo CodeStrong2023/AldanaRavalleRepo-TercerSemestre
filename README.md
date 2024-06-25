@@ -9,14 +9,14 @@ ___
 
 ![Java](https://cdn.iconscout.com/icon/free/png-256/java-60-1174953.png)
 
-- Clase 1 de Java: [Enlace a la carpeta](#)
-- Clase 2 de Java: [Enlace a la carpeta](#)
-- Clase 3 de Java: [Enlace a la carpeta](#)
-- Clase 4 de Java: [Enlace a la carpeta](#)
-- Clase 5 de Java: [Enlace a la carpeta](#)
-- Clase 6 de Java: [Enlace a la carpeta](#)
-- Clase 7 de Java: [Enlace a la carpeta](#)
-- Clase 8 de Java: [Enlace a la carpeta](#)
+- Clase 1 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%201/MundoPC)
+- Clase 2 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%202)
+- Clase 3 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%203)
+- Clase 4 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%204)
+- Clase 5 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%205)
+- Clase 6 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%206)
+- Clase 7 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%207)
+- Clase 8 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%208)
 - Clase 9 de Java: [Enlace a la carpeta](#)
 - Clase 10 de Java: [Enlace a la carpeta](#)
 ___
@@ -25,32 +25,32 @@ ___
 
 ![Python](https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=webp&w=256)
 
-- Clase 1 de Python: [Enlace a la carpeta](#)
-- Clase 2 de Python: [Enlace a la carpeta](#)
-- Clase 3 de Python: [Enlace a la carpeta](#)
-- Clase 4 de Python: [Enlace a la carpeta](#)
-- Clase 5 de Python: [Enlace a la carpeta](#)
-- Clase 6 de Python: [Enlace a la carpeta](#)
-- Clase 7 de Python: [Enlace a la carpeta](#)
-- Clase 8 de Python: [Enlace a la carpeta](#)
-- Clase 9 de Python: [Enlace a la carpeta](#)
-- Clase 10 de Python: [Enlace a la carpeta](#)
+- Clase 1 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%201)
+- Clase 2 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%202)
+- Clase 3 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%203)
+- Clase 4 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%204)
+- Clase 5 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%205)
+- Clase 6 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%206)
+- Clase 7 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%207)
+- Clase 8 de Python: [Enlace a la carpeta]()
+- Clase 9 de Python: [Enlace a la carpeta]()
+- Clase 10 de Python: [Enlace a la carpeta]()
 ___
 
 ### JavaScript: En esta sección se encontraran los ejercicios relacionados con la clase de JavaScript.
 
 ![JavaScript](https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png)
 
-- Clase 1 de JavaScript: [Enlace a la carpeta](#)
-- Clase 2 de JavaScript: [Enlace a la carpeta](#)
-- Clase 3 de JavaScript: [Enlace a la carpeta](#)
-- Clase 4 de JavaScript: [Enlace a la carpeta](#)
-- Clase 5 de JavaScript: [Enlace a la carpeta](#)
-- Clase 6 de JavaScript: [Enlace a la carpeta](#)
-- Clase 7 de JavaScript: [Enlace a la carpeta](#)
-- Clase 8 de JavaScript: [Enlace a la carpeta](#)
-- Clase 9 de JavaScript: [Enlace a la carpeta](#)
-- Clase 10 de JavaScript: [Enlace a la carpeta](#)
+- Clase 1 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%201)
+- Clase 2 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%202)
+- Clase 3 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%203)
+- Clase 4 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%204%20-%205)
+- Clase 5 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%204%20-%205)
+- Clase 6 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
+- Clase 7 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
+- Clase 8 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
+- Clase 9 de JavaScript: [Enlace a la carpeta]()
+- Clase 10 de JavaScript: [Enlace a la carpeta]()
 ___
 
 ## Proyectos
