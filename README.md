@@ -18,7 +18,7 @@ ___
 - Clase 7 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%207)
 - Clase 8 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%208)
 - Clase 9 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%209)
-- Clase 10 de Java: [Enlace a la carpeta](#)
+- Clase 10 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%2010)
 ___
 
 ### Python: En esta sección se encontraran los ejercicios relacionados con la clase de Python.
