@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,39 +22,31 @@
         <!-- Sección: Reglas del Juego -->
         <section id="reglas-del-juego">
             <h4>REGLAS DEL JUEGO</h4>
+
             <ol>
-                <li><strong>Selección de Personajes:</strong>
-                    <ul>
-                        <li>El jugador elige uno de los cuatro personajes: Zuko, Katara, Aang o Toph.</li>
-                        <li>El enemigo es asignado aleatoriamente entre los personajes restantes.</li>
-                    </ul>
+                <li><strong>Selección de Personajes:</strong><br>
+                    Elige tu personaje favorito: Zuko, Katara, Aang o Toph.<br>
+                    El enemigo será seleccionado aleatoriamente entre los personajes restantes.
                 </li>
-                <li><strong>Selección de Ataques:</strong>
-                    <ul>
-                        <li>Cada personaje tiene tres opciones de ataque: Golpe, Patada y Barrida.</li>
-                        <li>El jugador y el enemigo seleccionan sus ataques de manera simultánea.</li>
-                    </ul>
+                <li><strong>Selección de Ataques:</strong><br>
+                    Cada personaje tiene tres ataques: Golpe, Patada y Barrida.<br>
+                    Tú y el enemigo seleccionan simultáneamente un ataque.
                 </li>
-                <li><strong>Resolución del Combate:</strong>
+                <li><strong>Resolución del Combate:</strong><br>
+                    Ganas o pierdes vidas según la efectividad del ataque elegido:
                     <ul>
-                        <li>La efectividad de los ataques se determina de manera aleatoria o basada en un sistema de puntos.</li>
-                        <li>Cada personaje comienza con 3 vidas.</li>
-                        <li>Si el ataque del jugador es más efectivo que el del enemigo, el enemigo pierde una vida, y viceversa.</li>
-                        <li>El juego continúa hasta que uno de los personajes pierda todas sus vidas.</li>
+                        <li>Golpe vence a Barrida.</li>
+                        <li>Patada vence a Golpe.</li>
+                        <li>Barrida vence a Patada.</li>
                     </ul>
+                    Comienzas con 3 vidas. El combate continúa hasta que uno de los personajes pierda todas sus vidas.
                 </li>
-                <li><strong>Condiciones de Victoria:</strong>
-                    <ul>
-                        <li>El jugador gana si el enemigo pierde todas sus vidas.</li>
-                        <li>El jugador pierde si su personaje pierde todas sus vidas.</li>
-                    </ul>
+                <li><strong>Condiciones de Victoria:</strong><br>
+                    Ganas si reduces las vidas del enemigo a cero.<br>
+                    Pierdes si tu personaje se queda sin vidas antes de derrotar al enemigo.
                 </li>
             </ol>
-            <p><strong>Descripción Detallada:</strong></p>
-            <p>El objetivo del juego es derrotar al enemigo mediante la selección estratégica de ataques. Al inicio del juego, el jugador selecciona uno de los cuatro personajes disponibles, cada uno con sus propias características y habilidades. El enemigo se asigna de manera aleatoria entre los personajes restantes.</p>
-            <p>Una vez seleccionados los personajes, el jugador y el enemigo eligen sus ataques. Hay tres tipos de ataques disponibles: Golpe, Patada y Barrida. Cada ataque tiene su propia animación y efecto en el combate. La efectividad del ataque puede depender de varios factores, incluyendo la suerte y las habilidades del personaje.</p>
-            <p>El combate se resuelve comparando los ataques seleccionados por el jugador y el enemigo. Si el ataque del jugador es más fuerte, el enemigo perderá una vida, y viceversa. Ambos personajes comienzan con tres vidas, y el juego continúa hasta que uno de los personajes pierda todas sus vidas.</p>
-            <p>El jugador gana si logra reducir a cero las vidas del enemigo. Si el enemigo reduce a cero las vidas del jugador primero, el jugador pierde. El juego puede ser reiniciado en cualquier momento utilizando el botón de reinicio.</p>
+
         </section>
 
         <!-- Sección: Selección de Personaje -->
@@ -67,7 +60,8 @@
             <input type="radio" name="personaje" id="zuko" style="display: none;">
 
             <label for="katara">
-                <img src="imagenes/katara.jpg" alt="Katara" class="personaje-imagen" onclick="seleccionarPersonaje('Katara')">
+                <img src="imagenes/katara.jpg" alt="Katara" class="personaje-imagen"
+                    onclick="seleccionarPersonaje('Katara')">
             </label>
             <input type="radio" name="personaje" id="katara" style="display: none;">
 
@@ -91,7 +85,8 @@
 
             <!-- Información sobre vidas de los personajes -->
             <p>Tu personaje <span id="personaje-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
-            <p>El personaje <span id="personaje-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+            <p>El personaje <span id="personaje-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span>
+                vidas</p>
 
             <!-- Botones de selección de ataques -->
             <p>
@@ -112,4 +107,5 @@
         </section>
     </div>
 </body>
+
 </html>
