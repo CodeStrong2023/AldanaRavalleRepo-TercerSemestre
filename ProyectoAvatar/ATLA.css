@@ -1,4 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+section#reglas-del-juego {
+    display: none; /* Ocultar las reglas por defecto */
+}
+
+section#Inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Inicio button {
+    margin: 10px;
+}
+
+#seleccionar-personaje {
+    text-align: center;
+}
+
 .personaje-imagen {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.personaje-imagen:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para la sección seleccionar-ataque */
+#seleccionar-ataque {
+    text-align: center;
+}
+
+#seleccionar-ataque h2 {
+    margin-bottom: 20px;
+}
+
+#imagen-personaje-jugador,
+#imagen-personaje-enemigo {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#imagen-personaje-jugador img,
+#imagen-personaje-enemigo img {
+    width: 100%;
+    border-radius: 50%; /* Para imágenes redondas si es necesario */
+}
+
+#botones-ataque {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+button {
+    background-color: #37B7C3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #088395;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#mensajes {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#reiniciar {
+    text-align: center;
 }
