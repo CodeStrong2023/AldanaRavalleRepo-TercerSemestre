@@ -4,71 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AVATAR: LA LEYENDA DE AANG</title>
-    <link rel="stylesheet" href="ATLA.css"> <!-- Enlace al archivo CSS para los estilos -->
-    <script src="ATLA.js"></script> <!-- Enlace al archivo JavaScript para la lógica del juego -->
+    <link rel="stylesheet" href="ATLA.css">
+    <script src="ATLA.js" defer></script>
 </head>
 
 <body>
-    <!-- Título principal del juego -->
-    <h1>LA LEYENDA DE AANG: EL JUEGO 🔥💧🍃🪨</h1> <!-- Esto es estático, no cambia, el h1 se utiliza una vez -->
+    <div class="container">
+        <h1>LA LEYENDA DE AANG: EL JUEGO 🔥💧🍃🪨</h1>
 
-    <!-- Sección para seleccionar el personaje del jugador -->
-    <section id="seleccionar-personaje">
-        <h2>Elige tu Personaje</h2> <!-- Subtítulo para la selección de personaje -->
+        <!-- Sección: Inicio -->
+        <section id="Inicio">
+            <button id="boton-jugar">Jugar</button>
+            <button id="boton-reglas">Reglas</button>
+        </section>
 
-        <!-- Cada personaje con una etiqueta de imagen y una opción de radio -->
-        <label for="zuko">
-            <img src="imagenes/zuko.jpg" alt="Zuko" class="personaje-imagen"> <!-- Imagen de Zuko -->
-            Zuko
-        </label>
-        <input type="radio" name="personaje" id="zuko" /> <!-- Botón de radio para seleccionar Zuko -->
+        <!-- Sección: Reglas del Juego -->
+        <section id="reglas-del-juego">
+            <h4>REGLAS DEL JUEGO</h4>
+            <ol>
+                <li><strong>Selección de Personajes:</strong>
+                    <ul>
+                        <li>El jugador elige uno de los cuatro personajes: Zuko, Katara, Aang o Toph.</li>
+                        <li>El enemigo es asignado aleatoriamente entre los personajes restantes.</li>
+                    </ul>
+                </li>
+                <li><strong>Selección de Ataques:</strong>
+                    <ul>
+                        <li>Cada personaje tiene tres opciones de ataque: Golpe, Patada y Barrida.</li>
+                        <li>El jugador y el enemigo seleccionan sus ataques de manera simultánea.</li>
+                    </ul>
+                </li>
+                <li><strong>Resolución del Combate:</strong>
+                    <ul>
+                        <li>La efectividad de los ataques se determina de manera aleatoria o basada en un sistema de puntos.</li>
+                        <li>Cada personaje comienza con 3 vidas.</li>
+                        <li>Si el ataque del jugador es más efectivo que el del enemigo, el enemigo pierde una vida, y viceversa.</li>
+                        <li>El juego continúa hasta que uno de los personajes pierda todas sus vidas.</li>
+                    </ul>
+                </li>
+                <li><strong>Condiciones de Victoria:</strong>
+                    <ul>
+                        <li>El jugador gana si el enemigo pierde todas sus vidas.</li>
+                        <li>El jugador pierde si su personaje pierde todas sus vidas.</li>
+                    </ul>
+                </li>
+            </ol>
+            <p><strong>Descripción Detallada:</strong></p>
+            <p>El objetivo del juego es derrotar al enemigo mediante la selección estratégica de ataques. Al inicio del juego, el jugador selecciona uno de los cuatro personajes disponibles, cada uno con sus propias características y habilidades. El enemigo se asigna de manera aleatoria entre los personajes restantes.</p>
+            <p>Una vez seleccionados los personajes, el jugador y el enemigo eligen sus ataques. Hay tres tipos de ataques disponibles: Golpe, Patada y Barrida. Cada ataque tiene su propia animación y efecto en el combate. La efectividad del ataque puede depender de varios factores, incluyendo la suerte y las habilidades del personaje.</p>
+            <p>El combate se resuelve comparando los ataques seleccionados por el jugador y el enemigo. Si el ataque del jugador es más fuerte, el enemigo perderá una vida, y viceversa. Ambos personajes comienzan con tres vidas, y el juego continúa hasta que uno de los personajes pierda todas sus vidas.</p>
+            <p>El jugador gana si logra reducir a cero las vidas del enemigo. Si el enemigo reduce a cero las vidas del jugador primero, el jugador pierde. El juego puede ser reiniciado en cualquier momento utilizando el botón de reinicio.</p>
+        </section>
 
-        <label for="katara">
-            <img src="imagenes/katara.jpg" alt="Katara" class="personaje-imagen"> <!-- Imagen de Katara -->
-            Katara
-        </label>
-        <input type="radio" name="personaje" id="katara" /> <!-- Botón de radio para seleccionar Katara -->
+        <!-- Sección: Selección de Personaje -->
+        <section id="seleccionar-personaje">
+            <h2>Elige tu Personaje</h2>
 
-        <label for="aang">
-            <img src="imagenes/aang.jpg" alt="Aang" class="personaje-imagen"> <!-- Imagen de Aang -->
-            Aang
-        </label>
-        <input type="radio" name="personaje" id="aang" /> <!-- Botón de radio para seleccionar Aang -->
+            <!-- Opciones de selección de personaje -->
+            <label for="zuko">
+                <img src="imagenes/zuko.jpg" alt="Zuko" class="personaje-imagen" onclick="seleccionarPersonaje('Zuko')">
+            </label>
+            <input type="radio" name="personaje" id="zuko" style="display: none;">
 
-        <label for="toph">
-            <img src="imagenes/toph.jpg" alt="Toph" class="personaje-imagen"> <!-- Imagen de Toph -->
-            Toph
-        </label>
-        <input type="radio" name="personaje" id="toph" /> <!-- Botón de radio para seleccionar Toph -->
+            <label for="katara">
+                <img src="imagenes/katara.jpg" alt="Katara" class="personaje-imagen" onclick="seleccionarPersonaje('Katara')">
+            </label>
+            <input type="radio" name="personaje" id="katara" style="display: none;">
 
-        <!-- Botón para confirmar la selección del personaje -->
-        <button id="boton-personaje">Seleccionar</button> 
-    </section>
+            <label for="aang">
+                <img src="imagenes/aang.jpg" alt="Aang" class="personaje-imagen" onclick="seleccionarPersonaje('Aang')">
+            </label>
+            <input type="radio" name="personaje" id="aang" style="display: none;">
 
-    <!-- Sección para seleccionar el ataque del personaje del jugador -->
-    <section id="seleccionar-ataque">
-        <h2>Elige tu ataque</h2> <!-- Subtítulo para la selección de ataque -->
+            <label for="toph">
+                <img src="imagenes/toph.jpg" alt="Toph" class="personaje-imagen" onclick="seleccionarPersonaje('Toph')">
+            </label>
+            <input type="radio" name="personaje" id="toph" style="display: none;">
 
-        <!-- Información sobre el estado del juego (vidas) -->
-        <p>Tu personaje <span id="personaje-jugador"></span> tiene <span>3</span> vidas</p> <!-- Esto debe ser dinámico -->
-        <p>El personaje <span id="personaje-enemigo"></span> del enemigo tiene <span>3</span> vidas</p> <!-- Dinámico también -->
+            <!-- Botón para seleccionar personaje -->
+            <button id="boton-personaje">Seleccionar</button>
+        </section>
 
-        <!-- Botones para seleccionar el tipo de ataque -->
-        <p>
-            <button id="boton-golpe">Golpe 👊</button>
-            <button id="boton-patada">Patada 🦵</button>
-            <button id="boton-barrida">Barrida 🦶</button>
-        </p>
-    </section>
+        <!-- Sección: Selección de Ataque -->
+        <section id="seleccionar-ataque">
+            <h2>Elige tu ataque</h2>
 
-    <!-- Sección para mostrar mensajes sobre el resultado del combate -->
-    <section id="mensajes">
-        <p>Tu personaje atacó con todo el poder del FUEGO, el personaje del enemigo atacó con el medio poder de la TIERRA - GANASTE 🎉</p>
-    </section>
+            <!-- Información sobre vidas de los personajes -->
+            <p>Tu personaje <span id="personaje-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>El personaje <span id="personaje-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
 
-    <!-- Sección para el botón de reiniciar el juego -->
-    <section id="reiniciar">
-        <button id="boton-reiniciar">Reiniciar</button>
-    </section>
+            <!-- Botones de selección de ataques -->
+            <p>
+                <button id="boton-golpe">Golpe 👊</button>
+                <button id="boton-patada">Patada 🦵</button>
+                <button id="boton-barrida">Barrida 🦶</button>
+            </p>
+        </section>
+
+        <!-- Sección: Mensajes -->
+        <section id="mensajes">
+            <!-- Aquí se mostrarán los mensajes de combate -->
+        </section>
+
+        <!-- Sección: Reiniciar Juego -->
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+    </div>
 </body>
 </html>
