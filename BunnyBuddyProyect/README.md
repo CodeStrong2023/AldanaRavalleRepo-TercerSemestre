@@ -35,8 +35,8 @@ El código es un juego interactivo implementado en Python con la biblioteca Pyga
 ## Cómo Ejecutar el Juego
 
 1. Asegúrate de tener Python instalado en tu sistema.
-2. Instala las bibliotecas necesarias ejecutando `pip install -r requirements.txt`.
-3. Ejecuta `python bunny_buddy.py` para iniciar el juego.
+2. Instala las bibliotecas de pygame y postgresql. 
+3. Ejecuta `python main.py` para iniciar el juego.
 
 ## 1. Inicialización y Configuración
 
