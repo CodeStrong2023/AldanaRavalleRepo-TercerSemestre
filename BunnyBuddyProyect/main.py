@@ -162,16 +162,16 @@ def cargar_recursos():
     try:
         # Cargar las imágenes de fondo, menú y ayuda
         imagenes = {
-            "fondo": pygame.image.load('BunnyBuddyProyect/imagenes/pantalla/fondo.png'),
-            "menu": pygame.image.load('BunnyBuddyProyect/imagenes/pantalla/menu.png'),
-            "help": pygame.image.load('BunnyBuddyProyect/imagenes/pantalla/help.png'),
+            "fondo": pygame.image.load('imagenes/pantalla/fondo.png'), #BunnyBuddyProyect/imagenes/pantalla/fondo.png
+            "menu": pygame.image.load('imagenes/pantalla/menu.png'), #BunnyBuddyProyect/imagenes/pantalla/menu.png
+            "help": pygame.image.load('imagenes/pantalla/help.png'), #BunnyBuddyProyect/imagenes/pantalla/help.png
         }
 
         # Cargar las imágenes del Tamagotchi (bunny) en una lista
-        bunny_images = [pygame.image.load(f'BunnyBuddyProyect/imagenes/skins/bunny_{i}.png') for i in range(1, 6)]
+        bunny_images = [pygame.image.load(f'imagenes/skins/bunny_{i}.png') for i in range(1, 6)] #BunnyBuddyProyect/imagenes/skins/bunny_{i}.png
 
         # Cargar y reproducir música de fondo en bucle
-        pygame.mixer.music.load('BunnyBuddyProyect/audio/audio.mp3')
+        pygame.mixer.music.load('audio/audio.mp3') #BunnyBuddyProyect/audio/audio.mp3
         pygame.mixer.music.play(-1)  # Reproducir música en bucle
     except pygame.error as e:
         # Si ocurre un error al cargar los recursos, imprimir el error y salir del programa
