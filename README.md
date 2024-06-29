@@ -70,29 +70,28 @@ El proyecto EmpatIA es un chatbot de asistencia emocional desarrollado para la c
   - Interfaz amigable y fácil de usar.
 
 #### Enlaces y Recursos
-- **Código del Proyecto:** [Enlace al repositorio del chatbot](#)
-- **Página Web del Chatbot:** [Enlace a la página web](#)
-- **Documentación de la API de Gemini:** [Enlace a la documentación](https://example.com)
+- **Código del Proyecto:** [Enlace al repositorio del chatbot](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/ProyectoEmpatIA)
+- **Documentación de la API de Gemini:** [Enlace a la documentación](https://ai.google.dev/gemini-api/docs?hl=es-419)
 
 ¡Explora el código y descubre cómo este chatbot puede brindar apoyo emocional a los usuarios!
 ___
 
 
-### Mascota Virtual
-El proyecto de la mascota virtual fue desarrollado para la materia de Laboratorio 3. Este proyecto consiste en un juego clásico de mascota virtual, donde los usuarios pueden interactuar y cuidar de una mascota digital. La aplicación está desarrollada en Python, utilizando la biblioteca Pygame para la implementación de gráficos y funcionalidades del juego.
+### Bunny Buddy
+El proyecto de la mascota virtual fue desarrollado para la materia de Laboratorio III. Este proyecto consiste en un juego clásico de mascota virtual, donde los usuarios pueden interactuar y cuidar de una mascota digital. La aplicación está desarrollada en Python, utilizando la biblioteca Pygame para la implementación de gráficos y funcionalidades del juego.
 
 #### Descripción del Proyecto
 - **Objetivo:** Crear una experiencia interactiva y entretenida donde los usuarios pueden cuidar y jugar con una mascota virtual.
 - **Tecnología:** El juego está desarrollado en Python, utilizando Pygame para el manejo de gráficos y eventos.
 - **Características:**
-  - Interacción con la mascota a través de diferentes acciones como alimentar, jugar y descansar.
+  - Interacción con la mascota a través de diferentes acciones como alimentar, limpiar y descansar.
   - Animaciones y gráficos coloridos para una experiencia visual atractiva.
   - Estado de la mascota que cambia en función de las acciones del usuario, afectando su felicidad, salud y energía.
-  - Interfaz intuitiva y fácil de usar para todas las edades.
+  - Interfaz intuitiva y fácil de usar.
 
 #### Enlaces y Recursos
 - **Código del Proyecto:** [Enlace al repositorio de la mascota virtual](#)
-- **Tutorial de Pygame:** [Enlace al tutorial](https://example.com)
+- **Tutorial de Pygame:** [Enlace al tutorial](https://www.pygame.org/docs/ref/draw.html)
 
 ¡Explora el código y diviértete jugando con tu nueva mascota virtual!
 ___
