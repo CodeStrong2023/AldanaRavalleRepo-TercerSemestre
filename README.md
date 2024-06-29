@@ -50,7 +50,8 @@ ___
 - Clase 7 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
 - Clase 8 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%206%20-%207%20-%208)
 - Clase 9 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%209)
-- Clase 10 de JavaScript: [Enlace a la carpeta]()
+- Clase 10 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%2010)
+- Clase 11 de JavaScript: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Javascript/Clase%2011)
 ___
 
 ## Proyectos
