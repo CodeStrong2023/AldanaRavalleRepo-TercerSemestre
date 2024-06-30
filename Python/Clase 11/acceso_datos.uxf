@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>0</x><y>80</y><w>520</w><h>540</h></coordinates><panel_attributes>acceso_datos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>130</y><w>210</w><h>260</h></coordinates><panel_attributes>conexion
+--
+-DATABASE: String
+-USERNAME: String
+-PASSWORD: String
+-DB PORT. String
+-HOST: String
+-conexion: connection
+-cursor: Cursor
+--
++sobtenerConexion(cls): Connection
++obtener Cursor(cls): Cursor
++cerrar(cls)
+--
+Responsabilidades:
+Administrar la conexión a la base
+de datos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>130</y><w>210</w><h>190</h></coordinates><panel_attributes>Persona
+--
+-id persona: int
+-nombre: String
+-apellido: String
+-email: String
+--
++_str_(): String
++metodo Get/Set de cada atributo
+--
+Responsabilidades:
+Crear objetos de la entidad de
+Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>370</y><w>210</w><h>220</h></coordinates><panel_attributes>PesonaDao
+--
+-SELECCIONAR: String
+-INSERTAR: String
+-ACTUALIZAR: String
+-ELIMINAR: String
+--
++seleccionar (cls)
++insertar(cls, persona)
++actualizar (cls, persona)
++eliminar (cls, persona)
+--
+Responsabilidades:
+Realizar las operaciones sobre la
+base de datos de la entidad Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>380</y><w>210</w><h>120</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>190;100;10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>310</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element></diagram>
