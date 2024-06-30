@@ -19,6 +19,9 @@ ___
 - Clase 8 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%208)
 - Clase 9 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%209)
 - Clase 10 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%2010)
+- Clase 11 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%2011%20y%2012)
+- Clase 12 de Java: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Java/Clase%2011%20y%2012)
+
 ___
 
 ### Python: En esta sección se encontraran los ejercicios relacionados con la clase de Python.
@@ -32,9 +35,11 @@ ___
 - Clase 5 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%205)
 - Clase 6 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%206)
 - Clase 7 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%207)
-- Clase 8 de Python: [Enlace a la carpeta]()
-- Clase 9 de Python: [Enlace a la carpeta]()
-- Clase 10 de Python: [Enlace a la carpeta]()
+- Clase 8 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%208%20y%209)
+- Clase 9 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%208%20y%209)
+- Clase 10 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%2010)
+- Clase 11 de Python: [Enlace a la carpeta](https://github.com/CodeStrong2023/AldanaRavalleRepo-TercerSemestre/tree/main/Python/Clase%2011)
+
 ___
 
 ### JavaScript: En esta sección se encontraran los ejercicios relacionados con la clase de JavaScript.
